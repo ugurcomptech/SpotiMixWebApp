@@ -1,0 +1,27 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+    <div class="container">
+        <h1 style="color: white;">Spotify API Hesabı Nasıl Alınır?</h1>
+        <p style="color: white; font-size: 18px; text-align: left;">
+            Spotify API kullanmak için bir Spotify Developer hesabı ve API kimlik bilgileri gereklidir.
+            Aşağıdaki adımları takip ederek hesap açabilir ve API kimlik bilgilerinizi alabilirsiniz:
+        </p>
+        <ol style="color: white; font-size: 18px; text-align: left;">
+            <li><a href="https://developer.spotify.com/dashboard/" style="color: white;">Spotify Developer Dashboard'a</a> gidin.</li>
+            <li>Hesabınızı oluşturun veya oturum açın.</li>
+            <li>Dashboard'da "Uygulama Oluştur" seçeneğine tıklayın.</li>
+            <li>Uygulamanıza bir isim verin ve geliştirici koşullarını kabul edin.</li>
+            <li>Uygulamanız oluşturulduktan sonra API istemci kimlik bilgilerinizi alabilirsiniz.</li>
+        </ol>
+        <p style="color: white; font-size: 18px; text-align: left;">
+            İstemci kimlik bilgilerinizi aldıktan sonra, bu kimlik bilgilerini ilgili <strong>alanlara ekleyerek</strong>  
+            Spotify API'ını kullanabilirsiniz.
+        </p>
+        <p style="color: white; font-size: 18px; text-align: left;">
+            Eğer hala bir Spotify Developer hesabınız yoksa, aşağıdaki bağlantıyı kullanarak hesap oluşturabilirsiniz:
+            <br>
+            <a href="https://developer.spotify.com/dashboard/" style="color: white;">Spotify Developer Hesabı Oluştur</a>
+        </p>
+    </div>
+{% endblock body %}

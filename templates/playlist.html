@@ -1,0 +1,11 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+<div class="container text-center">
+    <h1 style="color: white; font-family: 'Dela Gothic One', sans-serif;">Oluşturulan Playlist</h1>
+    <br>
+    <br>
+    <p style="color: white; font-size: 18px; text-align: center; margin-top: 20px;">Oluşturulan playlistinizi aşağıda görebilirsiniz:</p>
+    <iframe src="https://open.spotify.com/embed/playlist/{{ playlist_id }}" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+</div>
+{% endblock body %}
