@@ -30,7 +30,7 @@ cd SpotiMixWebApp
 python playlist.py
 ```
 
-2. Tarayıcınızı açın ve [http://127.0.0.1:5000](http://127.0.0.1:5000) adresine gidin.
+2. Tarayıcınızı açın ve [http://127.0.0.1:5000](http://127.0.0.1:5000) adresine gidin(Siz de farklılık gösterebilir, terminalde yazan IP adresine tıklayınız).
 
 3. Ana sayfada, Spotify Developer Hesabınızın istemci kimliği (Client ID) ve istemci sırrını (Client Secret) girin.
 
