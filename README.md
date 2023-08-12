@@ -9,6 +9,18 @@ Bu uygulama, Spotify API'sini kullanarak en çok dinlediğiniz sanatçıların r
 pip install -r requirements.txt
 ```
 
+## Kurulum
+
+1. Depoyu klonlayın:
+
+```bash
+https://github.com/ugurcomptech/SpotiMixWebApp.git
+```
+2. Proje dizinine gidin:
+   
+```bash
+cd SpotiMixWebApp
+```
 
 ## Nasıl Kullanılır
 
@@ -28,7 +40,20 @@ python playlist.py
 
 6. Çalma listesi başarıyla oluşturulduğunda, "Playlist oluşturuldu" mesajı görüntülenir ve **playlist.html** sayfasına yönlendirilirsiniz.
 
-7. Playlist.html sayfasında oluşturulan çalma listesini görebilirsiniz.
+7. **Playlist.html** sayfasında oluşturulan çalma listesini görebilirsiniz.
+
+## Web uygulamasından görüntüler:
+
+![image](https://github.com/ugurcomptech/SpotiMixWebApp/assets/133202238/e04dc868-fcb6-41e7-af6e-ef39fdc06b8d)
+
+![image](https://github.com/ugurcomptech/SpotiMixWebApp/assets/133202238/ca858541-9964-41a6-b591-ab07069e1f98)
+
+
+## Lisans
+
+[![License: CC BY-NC-SA 4.0](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode)
+
+Bu projeyi [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode) altında lisansladık. Lisansın tam açıklamasını [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode) sayfasında bulabilirsiniz.
 
 
 
