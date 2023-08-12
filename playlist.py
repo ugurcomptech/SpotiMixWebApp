@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, redirect, url_for
+from flask import Flask, render_template, request, redirect, url_for, flash
 from spotipy.oauth2 import SpotifyOAuth
 import spotipy
 import random
@@ -20,6 +20,10 @@ def create_playlist():
     if request.method == "POST":
         client_id = request.form['client_id']
         client_secret = request.form['client_secret']
+
+        if not client_id or not client_secret:
+            flash('Lütfen tüm alanları doldurun.', 'warning')
+            return redirect(url_for('index'))
 
         sp_oauth = SpotifyOAuth(
             client_id, client_secret, SPOTIPY_REDIRECT_URI, scope=SPOTIPY_SCOPE
